@@ -1,1 +1,5 @@
-echo "Deploy executed at $(date '+%d/%m/%Y %H:%M:%S'), $(date)"
+'''
+echo $(date)
+sudo apt list --upgradable
+python3 /var/lib/jenkins/workspace/NEW_PIPE2/python_PipeLine.py
+'''
