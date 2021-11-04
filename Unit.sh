@@ -1,1 +1,1 @@
-echo "Unit testing started at $(date)"
+echo "Unit testing started at :"
