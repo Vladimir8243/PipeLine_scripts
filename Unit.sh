@@ -1,1 +1,1 @@
-echo "Unit testing started at :"
+echo "Unit testing started at :  %date% : %time%"
