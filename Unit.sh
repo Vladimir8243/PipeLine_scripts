@@ -1,2 +1,1 @@
-#!/bin/bash
-echo "Unit testing started at $(date '+%d/%m/%Y %H:%M:%S'), $(date)"
+echo "Unit testing started at $(date)"
