@@ -1,2 +1,1 @@
-
 echo "Deploy executed at $(date '+%d/%m/%Y %H:%M:%S'), $(date)"
