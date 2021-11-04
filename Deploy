@@ -1,2 +1,8 @@
 #!/bin/sh
-systemctl is-active --quiet service && echo Service is running
+STATUS=`systemctl is-active tomcat.service`
+  if [[ ${STATUS} == 'active' ]]; then
+    echo "Execute your tasks ....."
+  else 
+    echo " Service not running.... so exiting "  
+    exit 1  
+  fi
